@@ -1,0 +1,44 @@
+body, html {
+    height: 100%; /* Define uma altura de 100% para o body e html */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos filhos */
+    justify-content: center; /* Centraliza horizontalmente os elementos filhos */
+    background-color: #b4525e;
+}
+
+.calculator {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #ffc271;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+input[type="text"] {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #b4525e;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: #592b4c;
+    color: #f67e68;;
+}
+
+.color1 {color: #592b4c;}
+.color2 {color: #7f3853;}
+.color3 {color: #b4525e;}
+.color4 {color: #f67e68;}
+.color5 {color: #ffc271;}
